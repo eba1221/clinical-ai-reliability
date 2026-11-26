@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "n_boot": 1000,
+  "probability_clip": 0.001,
+  "ece_bins": 10,
+  "n_pool": 398,
+  "n_events_pool": 148,
+  "n_test": 171,
+  "n_events_test": 64,
+  "chosen_hyperparameters": {
+    "logreg": {
+      "logisticregression__C": 0.31622776601683794
+    },
+    "rf": {
+      "min_samples_leaf": 2.0
+    }
+  }
+}

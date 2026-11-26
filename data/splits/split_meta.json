@@ -1,0 +1,31 @@
+{
+  "dataset": "UCI Breast Cancer Wisconsin (Diagnostic), id=17",
+  "outcome": "y = 1 if Diagnosis == 'M' (malignant)",
+  "seed": 42,
+  "test_size": 0.3,
+  "repeats": 100,
+  "train_sizes": [
+    25,
+    50,
+    75,
+    100,
+    150,
+    200,
+    300
+  ],
+  "n_total": 569,
+  "n_events_total": 212,
+  "n_test": 171,
+  "n_events_test": 64,
+  "n_pool": 398,
+  "n_events_pool": 148,
+  "events_per_train_size": {
+    "25": 9.0,
+    "50": 19.0,
+    "75": 28.0,
+    "100": 37.0,
+    "150": 56.0,
+    "200": 74.0,
+    "300": 112.0
+  }
+}
